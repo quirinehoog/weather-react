@@ -1,5 +1,5 @@
-
 import React from "react";
+import Header from "./Header";
 import Weather from "./Weather";
 
 import './App.css';
@@ -12,6 +12,7 @@ function App() {
         <h1>
          Hallo World
         </h1>
+        <Header />
         <Weather />
       
       </header>
