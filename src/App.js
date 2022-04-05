@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
         
         <h1>
          Hallo World
@@ -17,7 +17,7 @@ function App() {
         <Weather />
         <Forecast />
       
-      </header>
+      
     </div>
   );
 }
