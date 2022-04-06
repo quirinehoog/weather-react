@@ -1,5 +1,6 @@
 import React from "react";
 import Dayforecast from "./Dayforecast";
+import "./Forecast.css";
 
 export default function Forecast() {
   return (
