@@ -7,11 +7,17 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <div className="weather-leftside">
-            <h1>Paris</h1>
-            <h6 className="now">Thursday 12:00</h6>
-            <span className="temperature" id="temperature">
-              5 °C
-            </span>
+            <ul>
+              <li>
+                <h1>Paris</h1>
+              </li>
+              <li>
+                <h6 className="now">Thursday 12:00</h6>
+              </li>
+              <li className="temperature" >
+                5 °C
+              </li>
+            </ul>
           </div>
         </div>
         <div className="col-6">
