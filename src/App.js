@@ -6,7 +6,6 @@ import Downpart from "./downpart";
 
 import "./App.css";
 
-
 function App() {
   return (
     <div className="App">
@@ -15,7 +14,6 @@ function App() {
         <Header />
         <Weather />
         <Forecast />
-        <Downpart />
       </div>
     </div>
   );
