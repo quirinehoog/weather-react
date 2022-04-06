@@ -10,11 +10,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Weather React</h1>
-      <Header />
-      <Weather />
-      <Forecast />
-      <Downpart />
+      <div className="container">
+        <h1>Weather React</h1>
+        <Header />
+        <Weather />
+        <Forecast />
+        <Downpart />
+      </div>
     </div>
   );
 }
