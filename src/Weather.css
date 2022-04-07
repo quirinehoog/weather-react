@@ -1,6 +1,17 @@
-.now { color:rgba(37, 89, 141, 0.46);
-  
+.now {
+  color: rgba(37, 89, 141, 0.46);
+}
+.weatherinfo-rightside {
+  margin-top: 85px;
 }
 
-ul{list-style-type: none;
-margin:0;}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #005689;
+  font-size: 48px;
+  padding-top: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}

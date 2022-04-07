@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather React</h1>
         <Header />
         <Weather />
         <Forecast />

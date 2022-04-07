@@ -6,19 +6,19 @@ export default function Forecast() {
   return (
     <div className="Forecast">
       <div className="row">
-        <div className="col-2">
+        <div className="col">
           <Dayforecast />
         </div>
-        <div className="col-2">
+        <div className="col">
           <Dayforecast />
         </div>
-        <div className="col-2">
+        <div className="col">
           <Dayforecast />
         </div>
-        <div className="col-2">
+        <div className="col">
           <Dayforecast />
         </div>
-        <div className="col-2">
+        <div className="col">
           <Dayforecast />
         </div>
       </div>
