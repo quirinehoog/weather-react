@@ -10,7 +10,9 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <div className="container">
+      <div className="Downpart">
       <Downpart />
+      </div>
     </div>
   </React.StrictMode>,
   document.getElementById("root")

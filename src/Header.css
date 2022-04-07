@@ -2,6 +2,11 @@
   border: none;
 }
 
-.Header search-button {
+.Search {
   color: #007cb9;
+}
+
+.Live{
+    color:red;
+    font-size: 5px;
 }
