@@ -5,6 +5,16 @@
   margin-top: 85px;
    color: rgba(37, 89, 141, 0.46);
 }
+.temperature{
+    font-size: 40px;
+    font-weight: bold;
+    color: #005689;
+}
+.unit{
+    position: relative;
+    top:-18px;
+    color: #005689;
+}
 
 h1 {
   font-family: "Poppins", sans-serif;

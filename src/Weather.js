@@ -21,6 +21,8 @@ export default function Weather() {
                     alt="Clear"
                     width="110"
                   />
+                  <span className="temperature">6</span>
+                  <span className="unit">°C</span>
                 </div>
               </li>
             </ul>
@@ -29,7 +31,7 @@ export default function Weather() {
         <div className="col-6">
           <div className="weatherinfo-rightside">
             <ul>
-              <li className="temperature">Temperature: 5 °C</li>
+              <li>Precipitation: 15%</li>
               <li>Humidity: 45 %</li>
               <li>Wind: 2 km/h</li>
             </ul>
