@@ -14,16 +14,15 @@ export default function WeatherInfo(props){
             <h1>{props.data.city}</h1>
           </li>
           <li>
-            <h6 className="now">{props.data.date}</h6>
+            <FormattedDate date={props.data.date}/>
           </li>
           <li>
             <div className="weatherimage-rightside">
-              <img
-                src="http://openweathermap.org/img/wn/10d@2x.png"
+              <WeatherIcon code={props.data.icon}
                 alt="Clear"
                 width="110"
               />
-              <span className="temperature">{props.data.temperature}</span>
+              <WeatherTemperature celsius={props.data.temperature} />
               <span className="unit">°C</span>
             </div>
           </li>
