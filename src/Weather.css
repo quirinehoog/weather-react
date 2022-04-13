@@ -1,3 +1,16 @@
+.Header search-name {
+  border: none;
+}
+
+.Search {
+  color: #007cb9;
+}
+
+.Live{
+    color:red;
+    font-size: 5px;
+}
+
 .now {
   color: rgba(37, 89, 141, 0.46);
 }
