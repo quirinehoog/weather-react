@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dayforecast.css";
 
-export default function Dayforecast() {
+export default function Dayforecast(props) {
   let dayData = {
     tempHigh: "11",
     tempLow: "8",
