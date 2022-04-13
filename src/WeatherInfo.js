@@ -23,7 +23,7 @@ export default function WeatherInfo(props){
                 width="110"
               />
               <WeatherTemperature celsius={props.data.temperature} />
-              <span className="unit">°C</span>
+              
             </div>
           </li>
         </ul>
