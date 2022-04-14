@@ -8,21 +8,21 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="row">
         <div className="col-8">
-          <div className="weather-leftside">
-            <ul>
-              <li>
-                <h1>{props.data.city}</h1>
-              </li>
-              <li>
-                <FormattedDate date={props.data.date} />
-              </li>
-              <li>
-                <WeatherIcon code={props.data.icon} alt="Clear" />
-                <WeatherTemperature celsius={props.data.temperature} />
-              </li>
-            </ul>
-          </div>
+          <h1>{props.data.city}</h1>
         </div>
+        <div className="col-4 daytime">
+          <FormattedDate date={props.data.date} />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-4">
+          <WeatherIcon code={props.data.icon} alt="Clear" />
+        </div>
+        <div className="col-4">
+          <WeatherTemperature celsius={props.data.temperature} />
+        </div>
+
         <div className="col-4">
           <div className="weatherinfo-rightside">
             <ul>
