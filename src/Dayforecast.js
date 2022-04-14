@@ -22,7 +22,7 @@ export default function Dayforecast(props) {
 
   return (
     <div className="Dayforecast">
-      <WeatherIcon code={props.data.weather[0].icon} alt="weather" width="50" />
+      <WeatherIcon code={props.data.weather[0].icon} alt="weather" width="50" size="40"/>
       <div className="weather-forecast-temps">
         <span className="weather-forecast-temps-high">{tempHigh()} </span>
         <span className="weather-forecast-temps-low">{tempLow()}</span>
