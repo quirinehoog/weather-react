@@ -14,18 +14,24 @@
 .now {
   color: rgba(37, 89, 141, 0.46);
 }
-.weatherinfo-rightside {
-  color: rgba(37, 89, 141, 0.46);
-}
+
 .clearweather{
   padding-bottom: 40px;
   padding-top: 40px;
   
 }
 .temperature{
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bold;
     color: #005689;
+}
+.weathericon{
+  padding-top:20px;
+}
+
+.weatherinfo-rightside {
+  color: rgba(37, 89, 141, 0.46);
+  padding-top:15px;
 }
 .unit{
     position: relative;
