@@ -32,6 +32,7 @@
 .weatherinfo-rightside {
   color: rgba(37, 89, 141, 0.46);
   padding-top:15px;
+  padding-right:10px;
 }
 .unit{
     position: relative;
