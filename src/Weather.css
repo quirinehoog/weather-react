@@ -15,8 +15,12 @@
   color: rgba(37, 89, 141, 0.46);
 }
 .weatherinfo-rightside {
-  margin-top: 85px;
-   color: rgba(37, 89, 141, 0.46);
+  color: rgba(37, 89, 141, 0.46);
+}
+.clearweather{
+  padding-bottom: 40px;
+  padding-top: 40px;
+  
 }
 .temperature{
     font-size: 40px;

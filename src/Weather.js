@@ -41,7 +41,7 @@ if (weatherData.ready){
        <div className="Header">
          <form onSubmit={handleSubmit}>
            <div className="row">
-             <div className="col-6">
+             <div className="col-8">
                <div className="Cityname">
                  <input
                    className="form-control"
@@ -53,7 +53,7 @@ if (weatherData.ready){
                  />
                </div>
              </div>
-             <div className="col-3">
+             <div className="col-4">
                <div className="Search">
                  <input
                    type="submit"
@@ -62,15 +62,7 @@ if (weatherData.ready){
                  />
                </div>
              </div>
-             <div className="col-3">
-               <div className="Live">
-                 <input
-                   type="submit"
-                   value="LIVE location"
-                   className="form-control btn btn-primary shadow-sm w-100"
-                 />
-               </div>
-             </div>
+             
            </div>
          </form>
          <WeatherInfo data={weatherData} />
